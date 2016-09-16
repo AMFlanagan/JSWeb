@@ -1,0 +1,504 @@
+
+/*body{
+  background-image: url(http://2.bp.blogspot.com/-MYMjRY8OgwU/Ujg2QxqcDRI/AAAAAAAABSw/qU9xuFIwQwc/s1600/latest-wood-high-definition-desktop-plain-wallpaper.jpg);
+  background-size: 1500px 2700px;
+  background-repeat: no-repeat;
+}*/
+
+html {
+ background: url(https://images6.alphacoders.com/371/371656.jpg) fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+header{
+  font-family: 'Poiret One', cursive;
+  padding-top: 1%;
+  padding-left: 0%;
+  width:100%;
+  font-size: 120%;
+  text-align: center;
+  color: #fafafa;
+}
+
+/*start navigation*/
+nav{
+	width: 90%;
+	margin: 1% auto;
+	overflow: hidden;
+  float: right;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+nav li a{
+	background: none;
+	border-right: 2px solid #fafafa;
+	color: #fafafa;
+	display: block;
+	float: left;
+	font-size: 80%;
+	font-weight: 400;
+	padding: 1%;
+	text-align: center;;
+	text-decoration: none;
+	width: 16.65%;
+	transition: bacground 0.5s ease;
+
+}
+
+nav li a:hover, nav li.active a{
+	background: #dadada;
+	color: #454545;
+}
+
+nav li:last-child a {
+	border: none;
+}
+
+nav li:first-child a{
+  border-right: 2px solid #fafafa;
+}
+/*end navigation*/
+/*section{
+  background-color: #D1965a;
+  border-style: groove;
+  border-color: maroon;
+
+}*/
+.social{
+  width: 50px;
+  height: 50px;
+}
+#sociallist{
+  list-style: none;
+	overflow: hidden;
+  position: relative;
+  width: 104%;
+  padding: 0%;
+
+}
+#sociallist a{
+  display: block;
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  padding: 0%;
+  border: none;
+}
+
+.social:hover{
+    width: 60px;
+    height: 60px;
+
+}
+
+
+img{
+  border-style: none;
+  width: 100%;
+  color: maroon;
+  border-radius: 50%;
+  padding: 0%;
+  border: solid;
+  color: #8C6B29;
+
+}
+
+
+.face{
+  float: left;
+  width: 25%;
+  padding-top:2%;
+  padding-left: 8%;
+  position: relative;
+
+
+}
+body{
+  font-size: 20px;
+  color: #fafafa;
+  font-family: 'Poiret One', cursive;
+}
+.summary{
+  padding-top: 0%;
+	float: right;
+	width: 42%;
+	padding-right: 12%;
+  font-size: 100%;
+  position: relative;
+  padding-left: 5%;
+}
+h3 {
+  text-decoration: underline;
+}
+
+.education{
+    padding-top: 0%;
+  	float: right;
+  	width: 45%;
+  	padding-right: 12%;
+    font-size: 100%;
+    position: relative;
+    padding-left: 5%;
+}
+
+#uniofleeds{
+  width: 100px;
+  height: 100px;
+}
+
+#bhhs{
+  width: 100px;
+  height: 100px;
+}
+
+.education, p{
+  text-align: center;
+  font-size: 90%;
+}
+
+#sbg{
+  width: 100px;
+  height: 100px;
+}
+
+#cp{
+  width: 100px;
+  height: 100px;
+}
+
+.workexperience{
+  text-align: center;
+  font-size: 90%;
+  padding-top: 0%;
+  float: right;
+  width: 45%;
+  padding-right: 12%;
+  font-size: 100%;
+  position: relative;
+  padding-left: 5%;
+}
+.aboutme{
+  text-align: center;
+  font-size: 110%;
+  padding-top: 0%;
+  float: right;
+  width: 45%;
+  padding-right: 12%;
+  font-size: 100%;
+  position: relative;
+  padding-left: 5%;
+}
+
+
+.contact{
+  font-size: 150%;
+  float: right;
+  width: 65%;
+  padding-top: 5%;
+}
+
+.form{
+  float: right;
+  width: 40%;
+}
+
+
+
+.formcontrol, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+
+
+/*-- media queries--*/
+@media only screen and (max-width: 960px){
+  nav{
+		width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+	}
+	nav li a {
+		width: 17.5%;
+		font-size: 60%;
+		border-right: 1px solid #fafafa;
+
+	}
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 780px){
+	nav{
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+	}
+	nav li a {
+    width: 17.5%;
+		font-size: 60%;
+		border-right: 1px solid #fafafa;
+
+
+	}
+
+  .face{
+    display: block;
+    width: 90%;
+    text-align: center;
+  }
+  #adam{
+    width: 60%;
+
+
+  }
+
+  #sociallist{
+    list-style: none;
+  	overflow: hidden;
+    position: relative;
+    width: 107%;
+    padding: 0%;
+    float: none;
+
+  }
+  #sociallist a{
+    display: block;
+    float: right;
+    width: 20%;
+    padding-right: 12%;
+    border: none;
+
+  }
+
+
+
+  .summary{
+    float: none;
+    text-align: center;
+    width: 90%;
+    padding: 5%;
+    height: auto;
+    font-size: 110%;
+    font-weight: 600;
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+    font-size: 120%;
+  }
+
+
+
+  .aboutme{
+    float: none;
+    text-align: center;
+    width: 95%;
+  }
+
+  .workexperience{
+    float: none;
+    text-align: center;
+    width: 95%;
+  }
+
+  .education{
+    float: none;
+    text-align: center;
+    width: 95%;
+  }
+
+  .contact{
+    width: 100%;
+  }
+
+  .formcontrol, {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: block;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      box-sizing: border-box;
+      float: none;
+  }
+
+  .education{
+
+    display: block;
+    height: 0%;
+    position: static;
+    bottom: 0;
+
+  }
+
+  .aboutme{
+    display: block;
+    height: 0%;
+    position: static;
+    bottom: 0;
+  }
+
+  .contact{
+    display: block;
+    height: 0%;
+    position: static;
+    bottom: 0;
+  }
+
+  .workexperience{
+    display: block;
+    height: 0%;
+    position: static;
+    bottom: 0;
+  }
+
+  .summary{
+    display: block;
+    height: 0%;
+    position: static;
+    bottom: 0;
+  }
+
+  .contact{
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+  }
+
+  h3{
+    font-size: 130%;
+    font-weight: bold;
+
+  }
+
+
+
+
+
+
+}
+@media only screen and (max-width: 637px){
+
+  nav{
+		width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+    font-size: 160%;
+    font-weight: 900;
+
+	}
+	nav li a {
+		width: 90%;
+		font-size: 60%;
+		border: 2px solid #fafafa;
+    height: 5%;
+
+	}
+
+  nav li:last-child a {
+  	border: 2px solid #fafafa;
+  }
+
+  nav li:first-child a{
+    border: 2px solid #fafafa;
+  }
+
+  .summary{
+    font-size: 120%;
+    font-weight: 900;
+  }
+
+
+
+  .aboutme{
+    float: none;
+    text-align: center;
+    width: 95%;
+  }
+
+  .workexperience{
+    float: none;
+    text-align: center;
+    width: 95%;
+  }
+
+  .education{
+    float: none;
+    text-align: center;
+    width: 95%;
+
+
+  }
+  p{
+    font-size: 130%;
+    font-weight: bold;
+  }
+
+  h3{
+    font-size: 130%;
+    font-weight: bold;
+
+  }
+}
+
+
+/*.circle{
+  height: 100px;
+  width: 100px;
+  background: olive;
+  border: 3px solid tomato;
+  border-radius: 50%;
+
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}*/
+
+/*section{
+  background-color: grey;
+  margin 20px;
+  padding 100px;
+}*/
